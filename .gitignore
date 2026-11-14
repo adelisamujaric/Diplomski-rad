@@ -1,0 +1,24 @@
+# Python okruženje i cache
+venv/
+__pycache__/
+*.pyc
+
+# PyCharm postavke
+.idea/
+
+# Rezultati treniranja: ignoriše se sve osim best.pt
+**/runs/**
+!**/runs/**/
+!**/runs/**/best.pt
+
+# Pretrenirani model
+yolov8n.pt
+
+# Dataset i generisani fajlovi
+dataset/
+dataset_yolo_with_images/
+ocr_test_crops/
+**/static/images/
+
+# Wi-Fi podaci za ESP uređaje
+secrets.h
